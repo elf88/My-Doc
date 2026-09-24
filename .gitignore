@@ -1,0 +1,6 @@
+# PNGهای منبع (نسخه‌های بهینه JPG در سایت استفاده می‌شوند)
+assets/img/*.png
+
+# سیستمی
+.DS_Store
+Thumbs.db
