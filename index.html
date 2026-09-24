@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فیگورا — استودیو اکشن‌فیگورهای سه‌بعدی</title>
+  <meta name="description" content="فیگورا | فروش و سفارش اختصاصی اکشن‌فیگورهای پرینت سه‌بعدی با رنگ‌آمیزی دستی — شاهکار سه‌بعدی تو، از ذهن تا قفسه.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2322d3ee'/%3E%3Cstop offset='1' stop-color='%23e879f9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='4' y='4' width='56' height='56' rx='16' fill='%230b1120'/%3E%3Crect x='4' y='4' width='56' height='56' rx='16' fill='none' stroke='url(%23g)' stroke-width='3'/%3E%3Ccircle cx='32' cy='22' r='7' fill='url(%23g)'/%3E%3Cpath d='M20 52v-8c0-6 5-10 12-10s12 4 12 10v8z' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ═══════════ پس‌زمینه متحرک ═══════════ -->
+  <div class="bg-scene" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="grain"></div>
+  </div>
+
+  <!-- ═══════════ هدر ═══════════ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="brand" aria-label="فیگورا — خانه">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="30" height="30" fill="none">
+            <defs>
+              <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#e879f9"/>
+              </linearGradient>
+            </defs>
+            <rect x="5" y="5" width="54" height="54" rx="15" stroke="url(#lg)" stroke-width="3.5"/>
+            <circle cx="32" cy="21" r="7" fill="url(#lg)"/>
+            <path d="M19 52v-7c0-7 6-11 13-11s13 4 13 11v7z" fill="url(#lg)"/>
+          </svg>
+        </span>
+        <span class="brand-text">فیگـورا<span class="brand-sub">FIGORA STUDIO</span></span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="منوی اصلی">
+        <a href="#home" class="nav-link">خانه</a>
+        <a href="#shop" class="nav-link">محصولات</a>
+        <a href="#process" class="nav-link">فرآیند ساخت</a>
+        <a href="#about" class="nav-link">درباره ما</a>
+        <a href="#contact" class="nav-link">تماس</a>
+        <a href="#order" class="btn btn-glow nav-cta">سفارش اختصاصی ✦</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="باز و بسته کردن منو" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ═══════════ هیرو ═══════════ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="hero-badge glass-chip reveal">✨ پرینت سه‌بعدی رزینی + رنگ‌آمیزی دستی</span>
+          <h1 class="hero-title reveal">
+            شاهکارِ سه‌بعدی،<br>
+            از <span class="grad-text">ذهن</span> تا <span class="grad-text">قفسه‌ی تو</span>
+          </h1>
+          <p class="hero-desc reveal">
+            من فیگورهای اکشن چاپی با پرینتر سه‌بعدی می‌سازم؛ از مدل‌سازی و چاپ رزینی
+            تا رنگ‌آمیزی دستی تک‌به‌تک. هر فیگور یک نسخه‌ی محدود و کاملاً یکتاست —
+            مثل یه مجسمه‌ی کوچیک که برای تو ساخته شده.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#shop" class="btn btn-glow btn-lg">مشاهده محصولات</a>
+            <a href="#order" class="btn btn-ghost btn-lg">سفارش اختصاصی خودت 🎨</a>
+          </div>
+          <div class="hero-stats reveal">
+            <div class="stat">
+              <b class="stat-num" data-count="250" data-suffix="+">۰</b>
+              <span>فیگور تحویل‌شده</span>
+            </div>
+            <div class="stat-sep" aria-hidden="true"></div>
+            <div class="stat">
+              <b class="stat-num" data-count="0.05" data-decimals="2">۰</b>
+              <span>میلی‌متر دقت چاپ</span>
+            </div>
+            <div class="stat-sep" aria-hidden="true"></div>
+            <div class="stat">
+              <b class="stat-num" data-count="98" data-suffix="٪">۰</b>
+              <span>رضایت مشتری‌ها</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-frame glass" data-tilt>
+            <img src="assets/img/hero-figure@2x.jpg" alt="اکشن‌فیگور رزینی دست‌ساز با رنگ‌آمیزی حرفه‌ای" width="800" height="436" fetchpriority="high">
+            <span class="frame-shine" aria-hidden="true"></span>
+          </div>
+          <div class="float-card float-1 glass">
+            <span class="fc-icon">🖨️</span>
+            <div><b>چاپ رزینی 8K</b><small>جزئیات فوق‌العاده ظریف</small></div>
+          </div>
+          <div class="float-card float-2 glass">
+            <span class="fc-icon">🎨</span>
+            <div><b>رنگ‌آمیزی دستی</b><small>لایه‌به‌لایه، با براش</small></div>
+          </div>
+          <div class="float-card float-3 glass">
+            <span class="fc-icon">📦</span>
+            <div><b>ارسال امن</b><small>به سراسر کشور</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ نوار متحرک ═══════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>✦ چاپ رزینی</span><span>✦ رنگ‌آمیزی دستی</span><span>✦ طراحی اختصاصی</span>
+        <span>✦ نسخه‌های محدود</span><span>✦ دایکاست و مکا</span><span>✦ فیگور از عکس تو</span>
+        <span>✦ چاپ رزینی</span><span>✦ رنگ‌آمیزی دستی</span><span>✦ طراحی اختصاصی</span>
+        <span>✦ نسخه‌های محدود</span><span>✦ دایکاست و مکا</span><span>✦ فیگور از عکس تو</span>
+      </div>
+    </div>
+
+    <!-- ═══════════ محصولات ═══════════ -->
+    <section class="section" id="shop">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">— ویترین استودیو</span>
+          <h2 class="section-title">فیگورهای <span class="grad-text">آماده‌ی ارسال</span></h2>
+          <p class="section-desc">
+            هر فیگور در نسخه‌ی محدود چاپ، رنگ و پکیج می‌شه. اگه چیزی رو دیدی که دوست داری،
+            سریع باش — معمولاً ظرف چند روز تموم می‌شن!
+          </p>
+        </header>
+
+        <div class="shop-tools reveal">
+          <div class="filters" role="tablist" aria-label="دسته‌بندی محصولات">
+            <button class="chip is-active" data-filter="all">همه</button>
+            <button class="chip" data-filter="cyber">سایبری</button>
+            <button class="chip" data-filter="fantasy">فانتزی</button>
+            <button class="chip" data-filter="mecha">مکا</button>
+            <button class="chip" data-filter="monster">هیولا</button>
+          </div>
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" id="shopSearch" placeholder="جستجوی فیگور…" aria-label="جستجوی فیگور">
+          </label>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+
+          <article class="product-card glass reveal" data-cat="mecha" data-name="مک جنگاور تایتان ۰۷">
+            <div class="pc-media">
+              <img src="assets/img/cards/fig-mech.jpg" alt="مک جنگاور تایتان ۰۷" loading="lazy" width="640" height="640">
+              <span class="pc-flag flag-hot">🔥 پرفروش</span>
+              <button class="pc-zoom" aria-label="نمایش بزرگ‌تر">⤢</button>
+            </div>
+            <div class="pc-body">
+              <span class="pc-cat">مکا</span>
+              <h3 class="pc-title">مک جنگاور «تایتان ۰۷»</h3>
+              <p class="pc-desc">مک ۱۸ سانتی با تفنگ گاتلینگ و سپر؛ رنگ‌آمیزی weathering واقعی.</p>
+              <div class="pc-foot">
+                <b class="pc-price">۴٬۹۰۰٬۰۰۰ <small>تومان</small></b>
+                <button class="btn btn-sm btn-order" data-item="مک جنگاور «تایتان ۰۷»">سفارش</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card glass reveal" data-cat="cyber" data-name="تک‌تیرانداز سایبری نئون">
+            <div class="pc-media">
+              <img src="assets/img/cards/fig-cyber.jpg" alt="تک‌تیرانداز سایبری نئون" loading="lazy" width="640" height="640">
+              <span class="pc-flag flag-new">جدید ✦</span>
+              <button class="pc-zoom" aria-label="نمایش بزرگ‌تر">⤢</button>
+            </div>
+            <div class="pc-body">
+              <span class="pc-cat">سایبری</span>
+              <h3 class="pc-title">تک‌تیرانداز سایبری «نئون»</h3>
+              <p class="pc-desc">اسنایپر سایبرپانک با ویزور نئونی و پایه‌ی صحنه‌آرایی شهری.</p>
+              <div class="pc-foot">
+                <b class="pc-price">۳٬۸۰۰٬۰۰۰ <small>تومان</small></b>
+                <button class="btn btn-sm btn-order" data-item="تک‌تیرانداز سایبری «نئون»">سفارش</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card glass reveal" data-cat="fantasy" data-name="شوالیه طلوع">
+            <div class="pc-media">
+              <img src="assets/img/cards/fig-knight.jpg" alt="شوالیه طلوع با زره طلایی" loading="lazy" width="640" height="640">
+              <button class="pc-zoom" aria-label="نمایش بزرگ‌تر">⤢</button>
+            </div>
+            <div class="pc-body">
+              <span class="pc-cat">فانتزی</span>
+              <h3 class="pc-title">شوالیهٔ طلوع</h3>
+              <p class="pc-desc">زره تمام‌بدن با جزئیات حکاکی‌شده و شمشیر دو‌دست؛ پایه‌ی سنگی.</p>
+              <div class="pc-foot">
+                <b class="pc-price">۳٬۲۰۰٬۰۰۰ <small>تومان</small></b>
+                <button class="btn btn-sm btn-order" data-item="شوالیهٔ طلوع">سفارش</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card glass reveal" data-cat="fantasy" data-name="اژدهای خاکستر">
+            <div class="pc-media">
+              <img src="assets/img/cards/fig-dragon.jpg" alt="اژدهای خاکستر با بال‌های باز" loading="lazy" width="640" height="640">
+              <span class="pc-flag flag-ltd">ویژه 💎</span>
+              <button class="pc-zoom" aria-label="نمایش بزرگ‌تر">⤢</button>
+            </div>
+            <div class="pc-body">
+              <span class="pc-cat">فانتزی</span>
+              <h3 class="pc-title">اژدهای خاکستر</h3>
+              <p class="pc-desc">بال‌های باز ۲۴ سانتی، فک متحرک و فلس‌های براق با گرادیان بنفش.</p>
+              <div class="pc-foot">
+                <b class="pc-price">۵٬۵۰۰٬۰۰۰ <small>تومان</small></b>
+                <button class="btn btn-sm btn-order" data-item="اژدهای خاکستر">سفارش</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card glass reveal" data-cat="fantasy" data-name="جادوگر ماه کبود">
+            <div class="pc-media">
+              <img src="assets/img/cards/fig-mage.jpg" alt="جادوگر ماه کبود با عصای بلورین" loading="lazy" width="640" height="640">
+              <button class="pc-zoom" aria-label="نمایش بزرگ‌تر">⤢</button>
+            </div>
+            <div class="pc-body">
+              <span class="pc-cat">فانتزی</span>
+              <h3 class="pc-title">جادوگر ماه کبود</h3>
+              <p class="pc-desc">جادوگر یوف با عصای کریستالی؛ افکت شفاف UV-resin روی سنگ.</p>
+              <div class="pc-foot">
+                <b class="pc-price">۲٬۹۰۰٬۰۰۰ <small>تومان</small></b>
+                <button class="btn btn-sm btn-order" data-item="جادوگر ماه کبود">سفارش</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card glass reveal" data-cat="monster" data-name="هیولای دوزخ">
+            <div class="pc-media">
+              <img src="assets/img/cards/fig-monster.jpg" alt="هیولای دوزخ با تبر جنگی" loading="lazy" width="640" height="640">
+              <span class="pc-flag flag-ltd">موجودی محدود</span>
+              <button class="pc-zoom" aria-label="نمایش بزرگ‌تر">⤢</button>
+            </div>
+            <div class="pc-body">
+              <span class="pc-cat">هیولا</span>
+              <h3 class="pc-title">هیولای دوزخ</h3>
+              <p class="pc-desc">شیطان شاخ‌دار با تبر جنگی؛ رنگ‌آمیزی سرخ‌نارنجی با افکت آتش.</p>
+              <div class="pc-foot">
+                <b class="pc-price">۴٬۲۰۰٬۰۰۰ <small>تومان</small></b>
+                <button class="btn btn-sm btn-order" data-item="هیولای دوزخ">سفارش</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <p class="empty-note" id="emptyNote" hidden>چیزی پیدا نشد! 🧐 عبارت دیگه‌ای امتحان کن.</p>
+      </div>
+    </section>
+
+    <!-- ═══════════ چرا فیگورا ═══════════ -->
+    <section class="section section-tight">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">— چرا فیگورا؟</span>
+          <h2 class="section-title">کیفیت، از <span class="grad-text">جنس عشق</span></h2>
+        </header>
+        <div class="feature-grid">
+          <div class="feature glass reveal">
+            <span class="feature-icon">🖨️</span>
+            <h3>چاپ رزینی 8K</h3>
+            <p>پرینتر LCD رزینی با لایه‌های ۰٫۰۵ میلی‌متری؛ سطح‌ها شیشه‌ای و بدون خط لایه.</p>
+          </div>
+          <div class="feature glass reveal">
+            <span class="feature-icon">🖌️</span>
+            <h3>رنگ‌آمیزی دستی</h3>
+            <p>پرایمر، لایه‌ی اصلی، سایه‌روشن و پتینا — همه با براش و اسپری حرفه‌ای.</p>
+          </div>
+          <div class="feature glass reveal">
+            <span class="feature-icon">🧬</span>
+            <h3>متریال نوآ</h3>
+            <p>رزین مقاوم و بدون تُرُتی؛ رنگ‌های اکریلیک آرتیست با ثبات چند‌ساله.</p>
+          </div>
+          <div class="feature glass reveal">
+            <span class="feature-icon">🛡️</span>
+            <h3>ارسال امن</h3>
+            <p>بسته‌بندی فومی چندلایه + بیمه‌ی ارسال؛ اگه آسیب دید، رایگان تعویض می‌شه.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ فرآیند ساخت ═══════════ -->
+    <section class="section" id="process">
+      <div class="container process-wrap">
+        <div class="process-copy">
+          <header class="section-head align-start reveal">
+            <span class="section-kicker">— پشت صحنه</span>
+            <h2 class="section-title">سفرِ یه فیگور، <span class="grad-text">از صفر تا قفسه</span></h2>
+            <p class="section-desc">هر سفارش این ۴ مرحله رو طی می‌کنه و از هر مرحله برات عکسِ پیشرفت می‌فرستم:</p>
+          </header>
+          <ol class="timeline">
+            <li class="tl-item glass reveal">
+              <span class="tl-num">۰۱</span>
+              <div><h3>ایده و مدل‌سازی</h3><p>طرح تو (یا ایده‌ی مشترکمون) سه‌بعدی مدل و برای چاپ بهینه می‌شه.</p></div>
+            </li>
+            <li class="tl-item glass reveal">
+              <span class="tl-num">۰۲</span>
+              <div><h3>چاپ سه‌بعدی رزینی</h3><p>چاپ لایه‌به‌لایه، شست‌وشو با الکل و عمل‌آوری نهایی زیر نور UV.</p></div>
+            </li>
+            <li class="tl-item glass reveal">
+              <span class="tl-num">۰۳</span>
+              <div><h3>رنگ‌آمیزی و پرداخت</h3><p>پرایمر، رنگ اصلی، سایش و پتینا؛ بعد لاک مات یا براق سلیقه‌ی خودت.</p></div>
+            </li>
+            <li class="tl-item glass reveal">
+              <span class="tl-num">۰۴</span>
+              <div><h3>پکیج و ارسال</h3><p>قرارگیری در باکس شیشه‌ای نمایش + فوم ضد‌ضربه و ارسال به سراسر کشور.</p></div>
+            </li>
+          </ol>
+        </div>
+        <figure class="process-media reveal">
+          <div class="glass frame">
+            <img src="assets/img/workshop.jpg" alt="ورکشاپ پرینت سه‌بعدی فیگورا" loading="lazy" width="800" height="436">
+            <span class="frame-shine" aria-hidden="true"></span>
+          </div>
+          <figcaption class="glass-chip">🌙 ورکشاپ فیگورا — جایی که جادو اتفاق می‌افته</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ═══════════ سفارش اختصاصی ═══════════ -->
+    <section class="section" id="order">
+      <div class="container">
+        <div class="order-panel glass reveal">
+          <div class="order-copy">
+            <span class="section-kicker">— سفارش اختصاصی</span>
+            <h2 class="section-title">فیگورِ <span class="grad-text">خودت</span> رو بساز!</h2>
+            <p>
+              کارتون، بازی‌ساز، قهرمان داستان خودت؟ 🦸 برام عکس، طرح یا حتی یه توضیح ساده بفرست
+              تا فیگورش رو از صفر برات بسازم. ظرفیت هر ماه محدوده — معمولاً ۳ سفارش اختصاصی.
+            </p>
+            <ul class="order-points">
+              <li>✦ مشاوره و قیمت‌گذاری رایگان</li>
+              <li>✦ گزارش عکس‌های مرحله‌به‌مرحله</li>
+              <li>✦ تحویل بین ۲ تا ۵ هفته</li>
+            </ul>
+            <div class="order-badge glass-chip">🔥 ظرفیت باقی‌مانده‌ی این ماه: <b>۲ سفارش</b></div>
+          </div>
+          <form class="order-form" id="orderForm" novalidate>
+            <div class="field-row">
+              <label class="field">
+                <span>نام و نام خانوادگی</span>
+                <input type="text" name="name" placeholder="مثلاً: آرش رستمی" required>
+              </label>
+              <label class="field">
+                <span>شماره تماس یا آیدی</span>
+                <input type="text" name="contact" placeholder="۰۹۱۲… یا @username" required>
+              </label>
+            </div>
+            <label class="field">
+              <span>نوع سفارش</span>
+              <select name="type">
+                <option value="custom">فیگور اختصاصی از طرح / ایده‌ی من</option>
+                <option value="photo">فیگور از روی عکس من</option>
+                <option value="character">بازسازی شخصیت محبوب</option>
+                <option value="existing">سفارش یکی از محصولات سایت</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>توضیحات</span>
+              <textarea name="desc" rows="4" placeholder="فیگوری که تو ذهنته رو توصیف کن: اندازه، حالت بدن، رنگ‌ها، دکور پایه…"></textarea>
+            </label>
+            <button type="submit" class="btn btn-glow btn-lg btn-block">ارسال درخواست ✦</button>
+            <p class="form-hint">پاسخ داخل ۲۴ ساعت از طریق تلگرام یا تماس 📞</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ نظرات ═══════════ -->
+    <section class="section section-tight">
+      <div class="container">
+        <header class="section-head reveal">
+          <span class="section-kicker">— حرف مشتری‌ها</span>
+          <h2 class="section-title">اونا که <span class="grad-text">قفسه‌شون خفن شده</span></h2>
+        </header>
+        <div class="quote-grid">
+          <figure class="quote glass reveal">
+            <blockquote>«کیفیت رنگ واقعاً بالاتر از عکس‌ها بود. تایتان ۰۷ الان وسط میز تلویزیونه و همه می‌پرسن از کجا گرفتی!»</blockquote>
+            <figcaption><b>سینا م.</b><span>تهران</span></figcaption>
+            <span class="quote-stars" aria-label="۵ از ۵">★★★★★</span>
+          </figure>
+          <figure class="quote glass reveal">
+            <blockquote>«از رو عکس عروسیم فیگور ساخت. جزئیات صورتش باورنکردنیه؛ هدیه‌ی سال شد بدون شک.»</blockquote>
+            <figcaption><b>نگار ح.</b><span>اصفهان</span></figcaption>
+            <span class="quote-stars" aria-label="۵ از ۵">★★★★★</span>
+          </figure>
+          <figure class="quote glass reveal">
+            <blockquote>«برای میز بازی رومیزی‌مون ۶ مینیاتور سفارش دادیم. همه سالم رسیدن و رنگ‌ها فوق‌العاده‌ان.»</blockquote>
+            <figcaption><b>امیر ک.</b><span>شیراز</span></figcaption>
+            <span class="quote-stars" aria-label="۵ از ۵">★★★★★</span>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CTA پایانی ═══════════ -->
+    <section class="section section-tight" id="about">
+      <div class="container">
+        <div class="cta-panel glass reveal">
+          <div class="cta-avatar" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="46" height="46" fill="none">
+              <defs><linearGradient id="lg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#e879f9"/></linearGradient></defs>
+              <rect x="6" y="6" width="52" height="52" rx="14" stroke="url(#lg2)" stroke-width="3"/>
+              <circle cx="32" cy="25" r="8" fill="url(#lg2)"/>
+              <path d="M17 54c1-9 7-13 15-13s14 4 15 13z" fill="url(#lg2)"/>
+            </svg>
+          </div>
+          <div class="cta-copy">
+            <h2>سلام! من سازنده‌ی فیگورا هستم 👋</h2>
+            <p>
+              چند ساله با پرینتر سه‌بعدی و قلم‌مو زندگی می‌کنم. عشقم ساخت فیگورهایی‌ست که
+              تو کارخونه تولید نمی‌شن — محدود، دست‌ساز و با جزئیاتی که از نزدیک باید دید.
+              هر سفارش برام یه پروژه‌ی جدیده، نه یه محصول تکراری.
+            </p>
+          </div>
+          <a href="#contact" class="btn btn-glow btn-lg">بیا در ارتباط باشیم</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═══════════ فوتر ═══════════ -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="#home" class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" width="26" height="26" fill="none">
+              <rect x="5" y="5" width="54" height="54" rx="15" stroke="url(#lg)" stroke-width="3.5"/>
+              <circle cx="32" cy="21" r="7" fill="url(#lg)"/>
+              <path d="M19 52v-7c0-7 6-11 13-11s13 4 13 11v7z" fill="url(#lg)"/>
+            </svg>
+          </span>
+          <span class="brand-text">فیگـورا</span>
+        </a>
+        <p>استودیو ساخت و فروش اکشن‌فیگورهای پرینت سه‌بعدی؛ نسخه‌های محدود، رنگ‌آمیزی دستی و سفارش‌های اختصاصی.</p>
+      </div>
+      <nav class="footer-col" aria-label="دسترسی سریع">
+        <h3>دسترسی سریع</h3>
+        <a href="#shop">محصولات</a>
+        <a href="#process">فرآیند ساخت</a>
+        <a href="#order">سفارش اختصاصی</a>
+        <a href="#about">درباره من</a>
+      </nav>
+      <div class="footer-col">
+        <h3>ارتباط با ما</h3>
+        <a href="mailto:hello@figora.studio" class="dir">✉️ hello@figora.studio</a>
+        <a href="tel:+989120000000" class="dir">📞 ۰۹۱۲ ۰۰۰ ۰۰۰۰</a>
+        <span class="dir">📍 تهران، ارسال به سراسر ایران</span>
+      </div>
+      <div class="footer-col">
+        <h3>ما را دنبال کنید</h3>
+        <div class="socials">
+          <a href="#" class="social glass-chip" aria-label="اینستاگرام">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="social glass-chip" aria-label="تلگرام">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M21.9 4.6 18.9 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.3.3-.5.5-1 .5l.3-4.7L18.3 6.7c.4-.3-.1-.5-.6-.2L7.2 13.1l-4.5-1.4c-1-.3-1-1 .2-1.4L20.5 3.2c.8-.3 1.6.2 1.4 1.4z"/></svg>
+          </a>
+          <a href="#" class="social glass-chip" aria-label="واتس‌اپ">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.6-6.1c-.3-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.3 0-.4.1-.6l.4-.5a1.7 1.7 0 0 0 .3-.4.5.5 0 0 0 0-.4c0-.1-.6-1.4-.8-1.9s-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3A2.9 2.9 0 0 0 6.8 10a5 5 0 0 0 1 2.7 11.5 11.5 0 0 0 4.5 3.9 15 15 0 0 0 1.5.6 3.6 3.6 0 0 0 1.7.1 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.2c-.1-.2-.3-.3-.6-.4z"/></svg>
+          </a>
+        </div>
+        <p class="footer-note">هر هفته جدیداً‌ها رو اول تو اینستاگرام پست می‌کنم ✨</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© ۱۴۰۵ استودیو فیگورا — همه‌ی حقوق محفوظ است.</span>
+      <span>ساخته‌شده با ❤️ و پرینتر سه‌بعدی</span>
+    </div>
+  </footer>
+
+  <!-- ═══════════ لایت‌باکس محصول ═══════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="نمایش محصول" hidden>
+    <div class="lightbox-backdrop" data-close></div>
+    <div class="lightbox-card glass">
+      <button class="lightbox-close" data-close aria-label="بستن">✕</button>
+      <img id="lbImg" src="" alt="">
+      <div class="lightbox-body">
+        <span class="pc-cat" id="lbCat"></span>
+        <h3 id="lbTitle"></h3>
+        <p id="lbDesc"></p>
+        <div class="lightbox-foot">
+          <b class="pc-price" id="lbPrice"></b>
+          <button class="btn btn-glow" id="lbOrder">سفارش این فیگور ✦</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- دکمه بازگشت به بالا -->
+  <button class="to-top glass" id="toTop" aria-label="بازگشت به بالا">↑</button>
+
+  <!-- ابزار اعلان -->
+  <div class="toast glass" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
