@@ -4,3 +4,6 @@ assets/img/*.png
 # سیستمی
 .DS_Store
 Thumbs.db
+
+# اسکرین‌شات‌های پیش‌نمایش
+preview-*.png
